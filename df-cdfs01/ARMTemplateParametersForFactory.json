@@ -1,0 +1,84 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-cdfs01"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ELEMENTXML_connectionString": {
+			"value": ""
+		},
+		"LOGGING_DATAFACTORY_connectionString": {
+			"value": ""
+		},
+		"LS_AzureSqlDWH_connectionString": {
+			"value": ""
+		},
+		"Legacydatabaseconnection_password": {
+			"value": ""
+		},
+		"OLAP_password": {
+			"value": ""
+		},
+		"OLTP_password": {
+			"value": ""
+		},
+		"XMLLinkedservicecdfs01_connectionString": {
+			"value": ""
+		},
+		"legacy_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-cdfs02.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-olap-cdfs01"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "cdfs"
+		},
+		"Legacydatabaseconnection_properties_typeProperties_server": {
+			"value": "sql-backend-cdfs01.database.windows.net"
+		},
+		"Legacydatabaseconnection_properties_typeProperties_database": {
+			"value": "SQL_Gepland_Onderhoud_legacy_CDFS01"
+		},
+		"Legacydatabaseconnection_properties_typeProperties_userName": {
+			"value": "cdfs"
+		},
+		"OLAP_properties_typeProperties_server": {
+			"value": "sql-cdfs02.database.windows.net"
+		},
+		"OLAP_properties_typeProperties_database": {
+			"value": "sql-olap-cdfs01"
+		},
+		"OLAP_properties_typeProperties_userName": {
+			"value": "cdfs"
+		},
+		"OLTP_properties_typeProperties_server": {
+			"value": "sql-cdfs02.database.windows.net"
+		},
+		"OLTP_properties_typeProperties_database": {
+			"value": "sql-oltp-cdfs02"
+		},
+		"OLTP_properties_typeProperties_userName": {
+			"value": "cdfs"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "http://api.weatherapi.com/v1"
+		},
+		"legacy_properties_typeProperties_server": {
+			"value": "sql-backend-cdfs01.database.windows.net"
+		},
+		"legacy_properties_typeProperties_database": {
+			"value": "SQL_Gepland_Onderhoud_legacy_CDFS01"
+		},
+		"legacy_properties_typeProperties_userName": {
+			"value": "cdfs"
+		}
+	}
+}
