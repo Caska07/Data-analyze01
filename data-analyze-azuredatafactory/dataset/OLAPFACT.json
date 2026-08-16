@@ -33,6 +33,10 @@
 				"type": "bigint",
 				"precision": 19
 			}
-		]
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "FACTWerk"
+		}
 	}
 }
